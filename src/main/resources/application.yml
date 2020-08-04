@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /file
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: mycode@123
+    url: jdbc:mysql://localhost:3306/sys
+    username: Mycode
+  jpa:
+    hibernate:
+      ddl-auto: update
+    
